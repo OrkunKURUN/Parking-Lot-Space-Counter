@@ -1,0 +1,17 @@
+Armağan:
+
+	Kaynak görüntüleri buldu (beamng.drive oyunundan aldı).
+	Median filtre ve logaritmic transformation filtrelerin değerlerini deneyerek buldu
+
+Orkun:
+
+	Programın algoritmasını oluşturdu.
+
+Kodları birlikte yazdık
+
+Kontrastı neden yükselttiniz?
+	Threshold işleminden sonra daha kesin sonuç alabilmek için
+	
+	Salt and pepper noise: Median filtre
+	Log transformation: Kontrast yükseltme (Aracın görüntüsünü belirginleştirir, 
+	threshold uygularken daha az kayıp olur)
