@@ -46,6 +46,7 @@ while True:
 
     spaces = (space1, space2, space3, space4, space5, space6, space7, space8, space9, space10, space11, space12)
     for space in spaces:
+        space = cv2.resize(space, (0, 0), fx=0.5, fy=0.5)
         if scanResults(space):
             empty_spaces -= 1
 
